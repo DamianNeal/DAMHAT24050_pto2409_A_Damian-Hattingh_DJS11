@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding-bottom: 60px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+.card, .fav, .episode {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px;
+}
+.filters label {
+  margin-right: 16px;
+}
+audio {
+  max-width: 100%;
+}
